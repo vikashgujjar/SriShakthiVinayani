@@ -20,7 +20,7 @@ const socials = [
 export default function Footer() {
   return (
     <footer
-      id="contact"
+      id="footer"
       className="pt-10 sm:pt-14 pb-5 border-t border-purple-500/20"
       style={{ background: 'linear-gradient(175deg,#0f0314 0%,#2a0a22 60%,#0f0314 100%)' }}
     >
