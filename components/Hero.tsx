@@ -60,11 +60,17 @@ export default function Hero() {
     <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://omsrisaiastrologer.com/wp-content/uploads/2025/09/banner-1.jpg"
+        src="../desktopBanner.jpg"
         alt="Hero"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-cover object-right hidden md:block"
       />
-      <div className="absolute inset-0 bg-hero-overlay" />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="../mobileBanner.jpg"
+        alt="Hero"
+        className="absolute inset-0 w-full h-full object-cover object-top block md:hidden"
+      />
+      <div className="absolute inset-0 bg-hero-overlay hidden md:block" />
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full pointer-events-none z-[1]" />
 
       {/* Particles */}
@@ -82,10 +88,10 @@ export default function Hero() {
       <span className="absolute bottom-24 right-10 sm:right-20 text-base sm:text-lg text-purple-400 animate-sparkle1 z-10">✦</span>
 
       <div className="relative z-10 flex-1 flex items-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-5 py-16 sm:py-20 w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-5 py-0 md:py-20 w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
 
           {/* Left Text */}
-          <div>
+          <div className="order-2 lg:order-1">
             <div className="inline-flex items-center gap-2 bg-white/5 border border-purple-400/40 backdrop-blur-md px-3 sm:px-4 py-2 rounded-full text-purple-300 text-xs font-semibold tracking-widest uppercase mb-5 sm:mb-6">
               <span>✦</span> Certified Vedic Astrologer
             </div>
@@ -116,7 +122,7 @@ export default function Hero() {
               ))}
             </div>
 
-            <div className="flex flex-wrap gap-3 sm:gap-4 mb-10 sm:mb-12">
+            <div className="flex flex-wrap gap-3 sm:gap-4 mb-0 sm:mb-12">
               <a
                 href="tel:9902762211"
                 className="inline-flex items-center gap-2 bg-purple-gradient text-white text-sm font-bold tracking-wide px-5 sm:px-7 py-3 sm:py-3.5 rounded-full shadow-purple hover:-translate-y-0.5 hover:shadow-purple-lg transition-all duration-200"
@@ -135,7 +141,7 @@ export default function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+            <div className="hidden md:grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
               {[
                 { value: '10K+', label: 'Clients' },
                 { value: '70+', label: 'Yrs Exp' },
@@ -156,7 +162,7 @@ export default function Hero() {
           </div>
 
           {/* Right Logo Orbit */}
-          <div className="flex justify-center items-center relative mt-8 lg:mt-0" style={{ minHeight: '280px' }}>
+          <div className="order-1 min-h-[550px] md:min-h-[280px] lg:order-2 flex justify-center items-center relative mb-0 lg:mb-0">
             <div className="absolute w-64 h-64 sm:w-80 sm:h-80 rounded-full border border-purple-400/20 animate-orbitCW origin-center pointer-events-none">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-purple-400/60" />
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-2 h-2 rounded-full bg-purple-400/60" />

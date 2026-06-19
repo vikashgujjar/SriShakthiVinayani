@@ -3,6 +3,7 @@ import Ticker from '@/components/Ticker'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import TrustBadges from '@/components/TrustBadges'
+import LordsCarousel from '@/components/LordsCarousel'
 import About from '@/components/About'
 import Stats from '@/components/Stats'
 import Services from '@/components/Services'
@@ -28,6 +29,7 @@ export default function Home() {
       <Services />
       <InstantSolution />
       <Poojas />
+      <LordsCarousel />
       <PlatformRatings />
       <Consultation />
       <Testimonials />

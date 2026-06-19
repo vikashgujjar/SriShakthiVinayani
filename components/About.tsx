@@ -20,7 +20,7 @@ export default function About() {
             <div className="absolute w-32 h-32 sm:w-40 sm:h-40 rounded-full border border-dashed border-purple-500/18 animate-orbitCCW origin-center" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://omsrisaiastrologer.com/wp-content/uploads/2025/09/im.jpg"
+              src="../aboutImg.jpg"
               alt="Pandith Chandra Babu Swami"
               className="rounded-2xl sm:rounded-3xl w-full sm:w-full h-full sm:h-full object-cover drop-shadow-purple animate-floatY relative z-10"
             />

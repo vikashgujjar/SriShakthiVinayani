@@ -1,6 +1,6 @@
 export default function FloatingButtons() {
   return (
-    <div className="fixed right-4 bottom-24 z-[999] flex flex-col gap-3">
+    <div className="fixed right-4 bottom-4 z-[999] flex flex-col gap-3">
       <a
         href="https://wa.me/919902762211"
         target="_blank"
