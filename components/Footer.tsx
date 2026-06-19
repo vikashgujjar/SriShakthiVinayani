@@ -34,7 +34,7 @@ export default function Footer() {
           <p className="text-white/35 text-xs leading-relaxed mb-4 sm:mb-5">
             Best Astrologer in Bangalore | Pandith Chandra Babu Swami | Certified Vedic Astrologer · 70+ Years
           </p>
-          <div className="flex gap-2">
+          {/* <div className="flex gap-2">
             {socials.map((s) => (
               <a
                 key={s.label}
@@ -44,7 +44,7 @@ export default function Footer() {
                 {s.label}
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* Address */}
