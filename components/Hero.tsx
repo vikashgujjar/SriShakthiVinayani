@@ -87,14 +87,14 @@ export default function Hero() {
           {/* Left Text */}
           <div>
             <div className="inline-flex items-center gap-2 bg-white/5 border border-purple-400/40 backdrop-blur-md px-3 sm:px-4 py-2 rounded-full text-purple-300 text-xs font-semibold tracking-widest uppercase mb-5 sm:mb-6">
-              <span>✦</span> Certified Vedic Astrologer · Kamanahalli
+              <span>✦</span> Certified Vedic Astrologer
             </div>
 
             <h1 className="font-cinzelD leading-tight mb-5 sm:mb-6" style={{ fontSize: 'clamp(1.7rem,5vw,3.8rem)' }}>
               <span className="text-white">South India&apos;s</span><br />
               <span className="bg-purple-light-grad bg-clip-text text-transparent">Best Astrologer</span><br />
               <span className="text-white/80 font-cinzel" style={{ fontSize: 'clamp(1rem,2.8vw,1.9rem)' }}>
-                in Kamanahalli, Bangalore
+                in Bangalore
               </span>
             </h1>
 

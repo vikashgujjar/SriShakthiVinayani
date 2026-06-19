@@ -1,6 +1,6 @@
 export default function Ticker() {
   const text =
-    '✦ Sri Shakthi Vinayani Jothichalaya  •  Best Astrologer in Kamanahalli  •  Call: 9902762211  •  Pandith Chandra Babu Swami  •  70+ Years Vedic Expertise  •  Marriage  •  Love  •  Career  •  Vastu  •  Kundali  •  Negative Energy Removal  •  Available 24/7      '
+    '✦ Sri Shakthi Vinayani Jothichalaya  •  Best Astrologer in Bangalore  •  Call: 9902762211  •  Pandith Chandra Babu Swami  •  70+ Years Vedic Expertise  •  Marriage  •  Love  •  Career  •  Vastu  •  Kundali  •  Negative Energy Removal  •  Available 24/7      '
 
   return (
     <div

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const options = [
   { icon: '📞', title: 'Phone Consultation', sub: '9902762211', subColor: 'text-purple-700 font-semibold' },
-  { icon: '📍', title: 'In-Person Visit', sub: 'Kamanahalli, Bangalore', subColor: 'text-stone-400' },
+  { icon: '📍', title: 'In-Person Visit', sub: 'Bangalore', subColor: 'text-stone-400' },
   { icon: '💻', title: 'Online Video Call', sub: 'Anywhere in the world', subColor: 'text-stone-400' },
   { icon: '⏰', title: 'Available 24/7', sub: 'Call anytime', subColor: 'text-stone-400' },
 ]
@@ -27,7 +27,7 @@ export default function Consultation() {
               <div className="font-cinzel font-bold text-xs sm:text-sm bg-purple-gradient bg-clip-text text-transparent">
                 Sri Shakthi Vinayani
               </div>
-              <div className="text-stone-500 text-xs">Jothichalaya · Kamanahalli</div>
+              <div className="text-stone-500 text-xs">Jothichalaya</div>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Consultation() {
             &ldquo;The stars incline, they do not compel — wisdom guides the willing.&rdquo;
           </p>
           <p className="text-stone-600 text-sm leading-relaxed mb-6 sm:mb-8">
-            Pandith Chandra Babu Swami offers personalised Vedic consultations for love, marriage, career, health, family, and spiritual matters. Available for online video calls, phone consultations, and in-person visits at Kamanahalli, Bangalore.
+            Pandith Chandra Babu Swami offers personalised Vedic consultations for love, marriage, career, health, family, and spiritual matters. Available for online video calls, phone consultations, and in-person visits at Bangalore.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 mb-6 sm:mb-8">

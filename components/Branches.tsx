@@ -2,17 +2,10 @@ const branches = [
   {
     img: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=400&q=80',
     city: 'Bangalore',
-    name: 'Kamanahalli, Bangalore',
+    name: 'Bangalore',
     type: '🏛 Main Branch',
     sub: 'Sri Shakthi Vinayani Jothichalaya',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=400&q=80',
-    city: 'Mumbai',
-    name: 'Mumbai',
-    type: '🏢 Branch Office',
-    sub: 'Consultation by Appointment',
-  },
+  }
 ]
 
 export default function Branches() {
@@ -28,7 +21,7 @@ export default function Branches() {
           <h2 className="font-cinzel text-xl sm:text-2xl font-black text-stone-900">Our Branches</h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-8 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-1 gap-5 sm:gap-8 max-w-sm mx-auto">
           {branches.map((b) => (
             <div
               key={b.city}

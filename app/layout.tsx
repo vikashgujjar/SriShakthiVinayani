@@ -30,8 +30,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Sri Shakthi Vinayani Jothichalaya | Best Astrologer in Kamanahalli',
-  description: 'Pandith Chandra Babu Swami — 70+ years of Vedic wisdom in Kamanahalli, Bangalore. Expert in Jyotish, Kundali, Vastu, Numerology, and spiritual healing.',
+  title: 'Sri Shakthi Vinayani Jothichalaya | Best Astrologer in Bangalore',
+  description: 'Pandith Chandra Babu Swami — 70+ years of Vedic wisdom in Bangalore. Expert in Jyotish, Kundali, Vastu, Numerology, and spiritual healing.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

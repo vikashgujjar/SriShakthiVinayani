@@ -16,13 +16,13 @@ export default function BookCTA() {
       <span className="absolute bottom-12 right-10 sm:right-32 text-lg text-purple-300 animate-sparkle3 z-10">✦</span>
 
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-5 text-center reveal-el">
-        <Image
-          src="/logo.png"
+        {/* <Image
+          src="/FooterLogo.png"
           alt="Logo"
-          width={80}
-          height={80}
-          className="w-16 h-16 sm:w-20 sm:h-20 object-contain drop-shadow-purple mx-auto mb-4 sm:mb-6"
-        />
+          width={160}
+          height={160}
+          className="w-34 h-34 sm:w-34 sm:h-34 object-contain drop-shadow-purple mx-auto mb-4 sm:mb-6"
+        /> */}
         <div className="inline-flex items-center gap-2 text-[0.68rem] font-bold tracking-[.16em] uppercase text-purple-300/80 mb-3 sm:mb-4 justify-center">
           <span className="inline-block w-6 sm:w-7 h-px bg-purple-400/50" />
           Begin Your Journey

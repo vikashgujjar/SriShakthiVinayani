@@ -14,7 +14,7 @@ const testimonials = [
     gradient: 'bg-gradient-to-br from-purple-500 to-purple-800',
   },
   {
-    quote: 'The gemstone recommendation by Swamiji transformed my business completely. His predictions are incredibly accurate and solutions are genuine. Best astrologer in Kamanahalli!',
+    quote: 'The gemstone recommendation by Swamiji transformed my business completely. His predictions are incredibly accurate and solutions are genuine. Best astrologer in Bangalore!',
     name: 'Sunitha Bhat',
     location: 'Hassan · Business',
     initial: 'S',

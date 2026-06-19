@@ -16,7 +16,7 @@ export default function Stats() {
             <span className="inline-block w-6 sm:w-7 h-px bg-purple-500/40" />
           </div>
           <h2 className="font-cinzel text-xl sm:text-2xl md:text-3xl font-black text-white mb-2">
-            Famous Jyotish in Kamanahalli &amp; Bangalore
+            Famous Jyotish in &amp; Bangalore
           </h2>
           <p className="text-white/40 text-sm">Trusted across South India for over seven decades</p>
         </div>

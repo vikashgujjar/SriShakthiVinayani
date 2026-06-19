@@ -39,7 +39,7 @@ export default function About() {
         <div className="reveal-el">
           <div className="inline-flex items-center gap-2 text-[0.68rem] font-bold tracking-[.16em] uppercase text-purple-600 mb-4 sm:mb-5">
             <span className="inline-block w-6 sm:w-7 h-px bg-purple-500" />
-            No. 1 Best Astrologer in Kamanahalli
+            No. 1 Best Astrologer in Bangalore
             <span className="inline-block w-6 sm:w-7 h-px bg-purple-500" />
           </div>
           <h2 className="font-cinzel text-2xl sm:text-3xl md:text-4xl font-black text-stone-900 leading-tight mb-3 sm:mb-4">
@@ -48,7 +48,7 @@ export default function About() {
             <span className="text-stone-700 text-xl sm:text-2xl">Babu Swami</span>
           </h2>
           <p className="font-cormorant text-stone-500 text-base sm:text-lg italic leading-relaxed mb-3 sm:mb-4">
-            Sri Shakthi Vinayani Jothichalaya, Kamanahalli — where ancient wisdom meets modern guidance.
+            Sri Shakthi Vinayani Jothichalaya — where ancient wisdom meets modern guidance.
           </p>
           <p className="text-stone-600 text-sm leading-relaxed mb-5 sm:mb-6">
             With over 70 years of mastery in Vedic astrology, palmistry, numerology, and spiritual healing, Pandith Chandra Babu Swami has transformed thousands of lives. His accurate predictions and genuine solutions have made him a trusted name across Karnataka, Tamil Nadu, Andhra Pradesh and beyond.

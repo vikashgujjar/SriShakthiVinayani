@@ -32,7 +32,7 @@ export default function Footer() {
             <Image src="/FooterLogo.png" alt="Logo" width={120} height={120} className="w-22 h-22 sm:w-22 sm:h-22 object-contain drop-shadow-purple-sm" />
           </div>
           <p className="text-white/35 text-xs leading-relaxed mb-4 sm:mb-5">
-            Best Astrologer in Kamanahalli, Bangalore | Pandith Chandra Babu Swami | Certified Vedic Astrologer · 70+ Years
+            Best Astrologer in Bangalore | Pandith Chandra Babu Swami | Certified Vedic Astrologer · 70+ Years
           </p>
           <div className="flex gap-2">
             {socials.map((s) => (
@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="space-y-2 sm:space-y-3">
             <div className="flex items-start gap-2 text-white/50 text-xs">
               <span className="text-purple-500 text-sm sm:text-base shrink-0">📍</span>
-              <span>Sri Shakthi Vinayani Jothichalaya,<br />Kamanahalli, Bangalore, Karnataka</span>
+              <span>Sri Shakthi Vinayani Jothichalaya,<br /> Bangalore, Karnataka</span>
             </div>
             <a href="tel:9902762211" className="flex items-center gap-2 text-white/50 text-xs hover:text-purple-400 transition-colors duration-200">
               <span className="text-purple-500 text-sm sm:text-base">📞</span>9902762211
@@ -91,7 +91,7 @@ export default function Footer() {
       <div className="h-px w-full bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
       <div className="max-w-7xl mx-auto px-4 sm:px-5 pt-4 sm:pt-5 flex flex-col sm:flex-row justify-between items-center gap-2">
         <p className="text-white/25 text-xs text-center sm:text-left">
-          © 2024 Sri Shakthi Vinayani Jothichalaya. All Rights Reserved. | Best Astrologer in Kamanahalli
+          © 2024 Sri Shakthi Vinayani Jothichalaya. All Rights Reserved.
         </p>
         <p className="text-white/20 text-xs">Disclaimer: Results may vary.</p>
       </div>
