@@ -3,10 +3,10 @@
 import { useState, useEffect, useCallback } from 'react'
 
 const lords = [
-  { src: 'https://images.unsplash.com/photo-1568114775774-886301d445ce?auto=format&fit=crop&w=800&q=80', label: 'Lord Ganesha' },
+  { src: 'https://images.unsplash.com/photo-1677586394845-2305cc806084?auto=format&fit=crop&w=800&q=80', label: 'Sai Baba' },
   { src: 'https://images.unsplash.com/photo-1549083449-aa6e43965934?auto=format&fit=crop&w=800&q=80', label: 'Lord Shiva' },
   { src: 'https://images.unsplash.com/photo-1761471678522-79012da5bd71?auto=format&fit=crop&w=800&q=80', label: 'Goddess Durga' },
-  { src: 'https://images.unsplash.com/photo-1765441863302-c2c02d6719e5?auto=format&fit=crop&w=800&q=80', label: 'Lord Ganesha' },
+  { src: 'https://images.unsplash.com/photo-1642069695959-3f0515d19390?auto=format&fit=crop&w=800&q=80', label: 'Sai Baba' },
   // { src: 'https://images.unsplash.com/photo-1773415169776-f94b6df22749?auto=format&fit=crop&w=800&q=80', label: 'Lord Shiva' },
   { src: 'https://images.unsplash.com/photo-1593847794002-a67998d742fc?auto=format&fit=crop&w=800&q=80', label: 'Hindu Deity' },
 ]
